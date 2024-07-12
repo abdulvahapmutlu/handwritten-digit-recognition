@@ -5,7 +5,6 @@ This repository contains a project focused on recognizing handwritten digits usi
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
