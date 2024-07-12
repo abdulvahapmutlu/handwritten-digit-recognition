@@ -37,6 +37,25 @@ Or you can manually install the dependencies below:
 4. **Evaluation**: Run `evaluation_metrics.py` to evaluate the trained model and generate metrics.
 
 ## Results
+Classification Report
+Precision, Recall, F1-Score:
+The precision, recall, and F1-score for all classes are extremely high, ranging from 0.99 to 1.00.
+The overall accuracy is 99%, which is excellent.
+Macro average and weighted average are both 0.99, indicating consistent performance across all classes.
+
+Confusion Matrix
+The confusion matrix shows very few misclassifications:
+Most values on the diagonal are close to the total number of samples for each class.
+There are very few off-diagonal values, indicating rare misclassifications.
+
+Model Accuracy Plot
+Train Accuracy: The training accuracy reaches above 99% quickly and remains stable.
+Validation Accuracy: The validation accuracy also quickly reaches above 99% and shows very little fluctuation, indicating that the model generalizes well to unseen data.
+
+Model Loss Plot
+Train Loss: The training loss decreases rapidly initially and continues to decrease slowly, suggesting the model is learning effectively.
+Validation Loss: The validation loss decreases significantly and stabilizes with some minor fluctuations, indicating that the model is not overfitting and maintains good generalization.
+
 The final optimized model achieved a test accuracy of approximately 99.4%.
 The model achieved a high accuracy on the test set. Demonstrating the effectiveness of the CNN model. Detailed evaluation metrics and plots are provided to analyze the model's performance.
 Additionally, training and validation accuracy/loss plots are generated to visualize the model's performance over epochs.
